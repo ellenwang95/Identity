@@ -716,7 +716,7 @@
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
-		opacity: 0.95;
+		opacity: 0.85;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
@@ -736,13 +736,14 @@
 			position: relative;
 			display: block;
 			margin-bottom: 1.5em;
+			background: url("images/wood.jpg");
 		}
 
 			#main .avatar img {
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
+				/*box-shadow: 0 0 0 1.5em #ffffff;*/
 			}
 
 			#main .avatar:before {
@@ -754,7 +755,7 @@
 				width: calc(100% + 6em);
 				height: 1px;
 				z-index: -1;
-				background: #c8cccf;
+				/*background: #c8cccf;*/
 			}
 
 		@media screen and (max-width: 480px) {
